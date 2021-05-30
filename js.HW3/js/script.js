@@ -18,18 +18,19 @@ console.log((true-70), typeof(true-70)); //-69 true
 // Number(1 + String(1)) + 1  //NaN+1
 console.log(Number(1 + String(1)) + 1); //12
 
-//-Task# 2---------------------------------------------
+-Task# 2---------------------------------------------
 
 let timeOnSec = 60; //задаю количество секунд в 1минуте
 let timeOnMin = 60; //задаю количество минут в 1часе
 
-
 let timeOneHour = prompt('Напишите количество часов');
-result = Number(timeOneHour * (timeOnMin * timeOnSec));
-alert("количество секунд: ", result);
+
+let result = (Number(timeOneHour * (timeOnMin * timeOnSec)));
+alert(`количество секунд: ${result}`);
+
 console.log(typeof(result));
 
-//-Task# 3----------------------------------------------
+-Task# 3----------------------------------------------
 
 var num = 1;
 num = num + 12; // +=12
