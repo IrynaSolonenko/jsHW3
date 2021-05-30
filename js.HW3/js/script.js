@@ -26,7 +26,7 @@ let timeOnMin = 60; //задаю количество минут в 1часе
 
 let timeOneHour = prompt('Напишите количество часов');
 result = Number(timeOneHour * (timeOnMin * timeOnSec));
-prompt("количество секунд: ", result);
+alert("количество секунд: ", result);
 console.log(typeof(result));
 
 //-Task# 3----------------------------------------------
@@ -36,6 +36,6 @@ num = num + 12; // +=12
 num = num — 14; //-=14
 num = num * 5; // *=5
 num = num / 7;  //  /=7
-num = num + 1;  //  ++1
-num = num — 1;  //  --1
+num = num + 1;  //  ++
+num = num — 1;  //  --
 alert(num);
